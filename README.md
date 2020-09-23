@@ -7,19 +7,18 @@
 
 <!-- badges: end -->
 
-The goal of staRtup is to easily create folders when starting-up your R
-Project
+The goal of staRtup is to easily create the following folders when
+starting-up your R Project
+
+  - \~/data-raw
+  - \~/data-output
+  - \~/R-scripts
+  - \~/resources
 
 ## Installation
 
-You can install the released version of staRtup from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("staRtup")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -29,8 +28,8 @@ devtools::install_github("daleericko/staRtup")
 ## Example
 
 This is a basic example which shows how easy it is to start your project
-with the four basic folder: data-raw, data-output, R-scripts, and
-resources.
+with the four basic folder: **data-raw, data-output, R-scripts, and
+resources.**
 
 ``` r
 library(staRtup)
