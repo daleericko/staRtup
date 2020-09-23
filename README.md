@@ -44,8 +44,8 @@ user know that the folder exists.
 ## Why staRtup?
 
 The best thing you can do as a coder / programmer is keep your code and
-relevant files in an organized fashion. Every time I start an R project,
-I know if will use these four folders, so what better way to save time
-than to just have this in a function?
+relevant files organized. These four folders show the minimum
+recommended structure one should have when starting a new R project.
+What better way to save time than to just have this in a function?
 
 \#\#\#
