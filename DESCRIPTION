@@ -1,11 +1,17 @@
 Package: staRtup
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Creates Basic Setup Folders For Project
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Erick Cohen
+Maintainer: The package maintainer <erickdcohen@gmail.com>
+Description: staRtup is meant to quickly create folders needed to keep all your
+    scripts and data organized when beginning an R project. The four folders that
+    are created are: "./R-scripts", "./data-output", "./data-raw", "./resources". 
+    The folders are created in the current working directory where your .Rproj 
+    file is located.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    here
+RoxygenNote: 7.1.1
