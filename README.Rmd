@@ -38,11 +38,13 @@ devtools::install_github("daleericko/staRtup")
 
 This is a basic example which shows how easy it is to start your project with the four basic folder: data-raw, data-output, R-scripts, and resources. 
 
-```{r example}
+```{r example, message=FALSE}
 library(staRtup)
 
 staRtup()
 ```
+
+Just running the function above will create those directories. If any or all of the directories already exist, a message will display letting the user know that the folder exists.
 
 ## Why staRtup?
 

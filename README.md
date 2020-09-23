@@ -36,11 +36,11 @@ resources.
 library(staRtup)
 
 staRtup()
-#> This directory already exists: /Users/erickcohen/Documents/Coding/R_Projects/staRtup/staRtup/data-raw
-#> This directory already exists: /Users/erickcohen/Documents/Coding/R_Projects/staRtup/staRtup/data-output
-#> This directory already exists: /Users/erickcohen/Documents/Coding/R_Projects/staRtup/staRtup/R-scripts
-#> This directory already exists: /Users/erickcohen/Documents/Coding/R_Projects/staRtup/staRtup/resources
 ```
+
+Just running the function above will create those directories. If any or
+all of the directories already exist, a message will display letting the
+user know that the folder exists.
 
 ## Why staRtup?
 
