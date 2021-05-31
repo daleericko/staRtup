@@ -9,10 +9,10 @@ staRtup <- function() {
 
   data_raw <- here::here("data-raw")
   data_output <- here::here("data-output")
-  scripts <- here::here("R-scripts")
+  r_scripts <- here::here("R")
   resources <- here::here("resources")
 
-  dirs <- list(data_raw, data_output, scripts, resources)
+  dirs <- list(data_raw, data_output, r_scripts, resources)
 
   for (dir in dirs) {
     if (!dir.exists(dir)) {
