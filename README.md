@@ -22,7 +22,7 @@ You can install the development version from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("daleericko/staRtup")
+devtools::install_github("erickdacohen/staRtup")
 ```
 
 ## Example
